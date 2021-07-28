@@ -11,6 +11,9 @@
 .hero-bike{
     padding-left: 93px;
 }
+.fa-star{
+    color: #E76F51;
+}
 
 @media (max-width:688px) {
     .hero{
@@ -25,5 +28,12 @@
     } 
     .hero-bike img{
         width: 100%;
+    }
+    .client{
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .bike{
+        flex-direction: column;
     }
 }
