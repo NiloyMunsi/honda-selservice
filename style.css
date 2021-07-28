@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    padding-left: 150px;
+    padding-top: 130px;
+    padding-bottom: 85px;
+}
+.hero-bike{
+    padding-left: 93px;
+}
+
+@media (max-width:688px) {
+    .hero{
+        width: 100%;
+        padding:10px;
+        flex-direction: column;
+    }
+    .hero-bike{
+        width: 100%;
+        padding-left: 0;
+        margin: 10px;
+    } 
+    .hero-bike img{
+        width: 100%;
+    }
+}
