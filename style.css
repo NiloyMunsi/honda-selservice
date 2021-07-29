@@ -14,6 +14,17 @@
 .fa-star{
     color: #E76F51;
 }
+.btn-honda{
+    background-color: #E76F51;
+    color: white;
+}
+.bg-honda{
+    background-color: #264653;
+}
+.text-honda{
+    color: #E76F51;
+    
+}
 
 @media (max-width:688px) {
     .hero{
