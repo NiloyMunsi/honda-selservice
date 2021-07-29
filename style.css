@@ -36,4 +36,17 @@
     .bike{
         flex-direction: column;
     }
+    .faq{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .faq img{
+        width: 270px;
+        height: 270px;
+    }
+    .accordion{
+       min-width: 100%;
+       
+    }
 }
